@@ -43,22 +43,6 @@ function App() {
           ) => store.callNumberInAlert(value, setValue)}
         />
       </ControlWithButtons>
-      <ControlWithButtons>
-        <RightButton
-          text="Алерт"
-          callback={(
-            value: string,
-            setValue: Dispatch<SetStateAction<string>>
-          ) => store.callAlert(value, setValue)}
-        />
-        <LeftButton
-          text="Вывод числа"
-          callback={(
-            value: string,
-            setValue: Dispatch<SetStateAction<string>>
-          ) => store.callNumberInAlert(value, setValue)}
-        />
-      </ControlWithButtons>
       <ControlAutocomplite size={3} />
       <ControlAutocomplite size={10} />
     </div>

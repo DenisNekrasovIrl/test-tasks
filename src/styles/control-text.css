@@ -2,3 +2,6 @@
   display: flex;
   margin: 15px 30px;
 }
+.control__title {
+  text-align: center;
+}
