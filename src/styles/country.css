@@ -1,0 +1,30 @@
+.country {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.country__item {
+  margin: 15px 0;
+  padding: 5px 0 5px 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 83, 156);
+  box-shadow: 0;
+  transition: 0.25s all linear;
+  cursor: pointer;
+  color: rgb(22, 56, 100);
+  background-color: #fff;
+}
+.country__item:hover {
+  color: #fff;
+  background-color: rgb(146, 146, 146);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 1);
+}
+
+.not-found-country {
+  color: rgb(0, 83, 156);
+  text-align: center;
+  font-size: 20px;
+}
